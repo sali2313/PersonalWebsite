@@ -849,6 +849,7 @@ border-radius: 16px;
 }
 
 .maincontent{
+  overflow: auto;
   /* border: 5px solid orange; */
   /* position: relative; */
 }
@@ -1133,18 +1134,25 @@ font-size: 2rem;
   /* transform: ; */
   /* height:60vh; */
   display: flex;
+  /* padding:0 20px !important; */
+
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: center !important;
+  align-items: center !important;
   /* border: 3px solid rgb(39, 126, 198); */
   transition: 3s;
   height: 100vh;
-  width: 60%;
+  width: 100%;
+  overscroll-behavior: contain;
+  overflow: hidden ;
+  /* border:3px solid white; */
 }
 .responsive a {
   /* border: 1px solid greenyellow; */
   width: 100%;
+  padding-bottom: 30px;
   color: white;
+  
 }
 
 .skills h1, .skills h2{
