@@ -485,7 +485,7 @@ border-radius: 16px;
 .eachproject{
   position: relative;
   padding: 25px;
-  padding-bottom: 100px;
+  padding-bottom: 75px;
   cursor: pointer;
   box-sizing: content-box;
   width: 20%;
@@ -496,7 +496,7 @@ border-radius: 16px;
   text-align: center;
   align-items: center;
   /* border: 3px solid rgb(211, 175, 245); */
-  margin-top: 10px;
+  margin-bottom: 50px;
   background: linear-gradient(180deg, #651F4A 0%, rgba(101, 31, 74, 0) 100%);
 /* VALUE CARD */
 
@@ -525,8 +525,8 @@ border-radius: 16px;
 }
 .eachproject .imageofproject{
   /* border: 2px solid red; */
-  height: 200px;
-  object-fit: fill;
+  height: 300px;
+  object-fit: contain;
   /* width: 100%; */
   position: absolute;
   /* left: 50%; */
@@ -534,7 +534,7 @@ border-radius: 16px;
   /* transform: translate(-50%,-50%); */
   opacity: 1;
   /* display: inline; */
-  width: 90%;
+  width: 80%;
   /* height: 250px; */
 }
 .homeonnavbarcontact{
